@@ -1,0 +1,40 @@
+.login-page {
+    height: 100vh;
+    background-color: var(--grey-4);
+}
+
+.login-page .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.login-page .container div {
+    color: var(--white);
+}
+.login-page .container div:nth-child(1) img {
+    margin-bottom: 30px;
+}
+
+.login-page .container div h1 {
+    margin-bottom: 30px;
+}
+
+.login-page .container div p {
+    margin-bottom: 30px;
+}
+.login-page .container div button {
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    .login-page .container div:nth-child(1) {
+        text-align: center;
+    }
+
+    .login-page .container div:nth-child(2) {
+        display: none;
+    }
+}
